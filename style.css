@@ -36,7 +36,6 @@ body {
 }
 
 .card {
-    /* width: 800px; */
     border-radius: 20px;
 }
 
@@ -64,7 +63,6 @@ body {
     margin-bottom: 10px;
 }
 .form {
-    /* width: 780px; */
     padding: 20px 30px;
     margin: 0 auto;
 }
@@ -91,7 +89,6 @@ body {
     display: flex;
     gap: 28px;
     width: 800px;
-    margin: 0 auto;
 }
 .about__description {
     width: 400px; 

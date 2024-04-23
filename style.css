@@ -19,8 +19,6 @@ body {
     padding: 20px;
     border-radius: 20px;
 }
-
-
 .card a {
     color: #828282;
     transition: all .2s;
@@ -88,10 +86,17 @@ body {
 .about {
     display: flex;
     gap: 28px;
-    width: 800px;
+    /* width: 800px; */
 }
 .about__description {
     width: 400px; 
+}
+.about__description p {
+    color: #86898f;
+    margin-bottom: 6px;
+}
+.about__description span {
+    color: coral;
 }
 .about__info {
     display: flex;

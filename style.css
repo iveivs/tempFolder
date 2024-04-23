@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0F141E;
+    background:  #F3F4F6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.card a {
+    color: #828282;
+    transition: all .2s;
+}
+.card a:hover {
+    color: orange;
+}
+.card a:visited {
+    color: palevioletred;
+}
+.card a:active {
+    color: magenta;
+}
+
+.card {
+    /* width: 800px; */
+    border-radius: 20px;
+}
+
+.hobby {
+    background-color: #e4e8ff;
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.work {
+    background-color: #ede4ff;
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.curses {
+    background-color: #ffe3ec;
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.curses__list {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.form {
+    /* width: 780px; */
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background: #293133;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .3s;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: .8;
+}
+.img_avatar {
+    width: 200px;
+    border-radius: 10px;
+}
+.about {
+    display: flex;
+    gap: 28px;
+    width: 800px;
+    margin: 0 auto;
+}
+.about__description {
+    width: 400px; 
+}
+.about__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(3),
+.table td:nth-child(2) {
+    color: #86898f
+}
+.title {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f
+}
+.form-group textarea, 
+.form-group input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: #393939;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 600px;
+    }
+    .about {
+        display: block;
+        text-align: center;
+    }
+    .img_avatar {
+        text-align: center;
+    }
+    .card {
+        width: 540px;
+    }
+    .about__info {
+        width: 540px;
+    }
+    .about__description {
+        width: 540px;
+    }
+}
